@@ -3,8 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Devcade;
 
-// MAKE SURE YOU RENAME ALL PROJECT FILES FROM DevcadeGame TO YOUR YOUR GAME NAME
-namespace DevcadeGame
+namespace Tetris
 {
 	public class Game1 : Game
 	{
@@ -12,12 +11,12 @@ namespace DevcadeGame
 		private SpriteBatch _spriteBatch;
 		
 		/// <summary>
-		/// Stores the window dimensions in a rectangle object for easy use
+		/// 	Stores the window dimensions in a rectangle object for easy use
 		/// </summary>
 		private Rectangle windowSize;
 		
 		/// <summary>
-		/// Game constructor
+		/// 	Game constructor
 		/// </summary>
 		public Game1()
 		{
@@ -27,7 +26,7 @@ namespace DevcadeGame
 		}
 
 		/// <summary>
-		/// Performs any setup that doesn't require loaded content before the first frame.
+		/// 	Performs any setup that doesn't require loaded content before the first frame.
 		/// </summary>
 		protected override void Initialize()
 		{
@@ -56,7 +55,7 @@ namespace DevcadeGame
 		}
 
 		/// <summary>
-		/// Performs any setup that requires loaded content before the first frame.
+		/// 	Performs any setup that requires loaded content before the first frame.
 		/// </summary>
 		protected override void LoadContent()
 		{
@@ -68,7 +67,7 @@ namespace DevcadeGame
 		}
 
 		/// <summary>
-		/// Your main update loop. This runs once every frame, over and over.
+		/// 	Your main update loop. This runs once every frame, over and over.
 		/// </summary>
 		/// <param name="gameTime">This is the gameTime object you can use to get the time since last frame.</param>
 		protected override void Update(GameTime gameTime)
@@ -91,7 +90,7 @@ namespace DevcadeGame
 		}
 
 		/// <summary>
-		/// Your main draw loop. This runs once every frame, over and over.
+		/// 	Your main draw loop. This runs once every frame, over and over.
 		/// </summary>
 		/// <param name="gameTime">This is the gameTime object you can use to get the time since last frame.</param>
 		protected override void Draw(GameTime gameTime)
